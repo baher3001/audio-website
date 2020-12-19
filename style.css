@@ -1,0 +1,236 @@
+nav
+{
+    width: 100%;
+    height: 60px;
+    background-color: black !important;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    text-transform: capitalize;
+}
+.nav-logo img
+{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.nav-content li
+{
+   display: inline-block;
+   padding-right:30px;
+}
+.nav-content ul
+{
+    
+   list-style: none;
+   margin-top: 10px;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: white;
+  
+}
+.nav-logo   img:hover
+{
+    transform: scale(1.2);
+}
+@media(max-width:568px)
+{
+    ul
+    {
+        display: flex;
+        margin-top: 10px;
+        font-size: 15px;
+    
+    }
+    li
+    {
+        padding-right: 60px !important;
+    }
+
+}
+@media(max-width:768px)
+{
+    ul
+    {
+        display: flex;
+        margin-top: 10px;
+        font-size: 15px;
+    
+    }
+    li
+    {
+        padding-right: 60px !important;
+    }
+
+}
+
+/*start header*/
+header
+{
+    width: 100%;
+    height: 650px;
+    background-image:url("we.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-content h1
+{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    margin-top: 150px;
+    border:6px solid red;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+@media(max-width:568px)
+{
+    .header-content h1
+    {
+        font-size: 60px;
+        
+    }
+
+
+}
+/*start worker*/
+.workers
+{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.workers img
+{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+@media(max-width:568px)
+{
+    .workers 
+    {
+        height: 600px;
+    }
+    .workers img
+    {
+        width: 150px;
+        height: 130px;
+    }
+}
+@media(max-width:768px)
+{
+    .workers 
+    {
+        height: 650px;
+    }
+    .workers img
+    {
+        width: 150px;
+        height: 130px;
+    }
+ 
+}
+.workers-content h3
+{
+   margin-top: 20px;
+}
+/*start cars*/
+.cars
+{
+    width: 100%;
+    height: 680px;
+    background-color: black;
+    text-align: center;
+}
+.cars img
+{
+    max-width: 100%;
+    width: 300px;
+    height: 280px;
+}
+@media (max-width:568px)
+{
+    .cars
+    {
+        height: 1600px;
+        
+    }
+  
+}
+@media (max-width:768px)
+{
+    .cars
+    {
+        height: 1600px;
+        
+    }
+  
+}
+/*start contact us*/
+.form1
+{
+    width: 100%;
+    height: 300px;
+    position: relative;
+ 
+    
+}
+.form-control
+{
+    height: 60px;
+    margin-bottom: 10px;
+   
+}
+.form1 h1
+{
+    position: relative;
+    top: 20px;
+    text-decoration: underline;
+    
+}
+/*start footer*/
+footer
+{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+img
+{
+    width: 50px;
+
+}
+footer h5
+{
+    margin-top: 30px;
+}
+footer img:hover
+{
+    transform: scale(1.3);
+}
+small
+{
+    color: red;
+    display: none;
+}
+i
+{
+    position: absolute;
+    right: 30;
+    top: 190;
+    font-size: 30px;
+    color: dodgerblue;
+
+}
